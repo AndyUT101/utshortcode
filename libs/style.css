@@ -98,6 +98,15 @@ div.block-feature li.post-feature div.post-image {
 }
 
 
+#footer-widgets .categorylist li {
+    font-size: 0.8em;
+    list-style-type: none;
+}
+
+#footer-widgets .widget_recent_entries ul li {
+    font-size: 0.8em;
+}
+
 @media (max-width: 800px) {
 	div.block-feature li.post-child, div.block-feature li.post-feature {
 		max-width: none; width: 100%;
