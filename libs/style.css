@@ -1,0 +1,107 @@
+div.post-list-block {
+    float: left;
+    padding-right: 10px;
+    margin: 10px 0;
+    width: 100%;
+}
+
+div.post-list-block div.entry-meta, div.post-list-block div.entry-title, {
+	font-size: 85%;
+    margin-top: .5em;
+    color: #888888;
+}
+
+div.post-list-block ul {
+	margin: 0 16px 0 0;
+	padding: 16px;
+	border-top: 1px solid #ddd;
+}
+
+div.post-list-block ul h1 a {
+	color: #3a3a3a;
+}
+
+div.post-list-block ul li {
+	list-style-type: none;
+}
+
+div.post-list-block ul li.post-feature {
+	padding: 0 0 10px;
+	border-bottom: 1px #ddd solid;
+}
+
+div.post-list-block ul li.post-feature div.post-image img {
+	width: 100%;
+	max-height: 300px;
+	padding-bottom: 10px;
+}
+
+div.post-list-block ul li.post-child {
+	min-height: 80px;
+}
+
+div.post-list-block ul li.post-child div.post-image {
+	width: 75px; height: 75px;
+	padding: 10px; margin-top: 0;
+	float: left;
+}
+
+div.post-list-block ul li.post-child div.post-description {
+	min-height: 100px;
+	border-bottom: 1px #ddd solid;
+}
+
+div.post-list-block ul li.post-child:last-child div.post-description {
+	border-bottom: none;
+}
+
+div.post-list-block ul li.post-child div.post-description h2.entry-title {
+	font-size: 80%;
+	padding: 20px 0 0;
+}
+
+div.post-list-block ul li.post-child div.post-description div.entry-meta {
+	padding: 0 0 10px;
+}
+
+div.post-list-block div.clearfix {
+    clear: both;
+}
+
+/* block-feature */
+
+div.block-feature > ul:after {
+    content: " ";
+    clear: both;
+    display: block;
+}
+
+div.block-feature li.post-feature {
+    width: 60%;
+    max-width: 650px; min-height: 500px;
+    float: left;
+    border-bottom: none;
+}
+
+div.block-feature li.post-feature > div {
+	padding-right: 8px;
+}
+
+div.block-feature li.post-child {
+	max-width: 40%; width: 100%;
+    float: left; 
+    padding: 16px 0;
+}
+
+div.block-feature li.post-feature div.post-image {
+	margin: 1em 0 0;
+}
+
+
+@media (max-width: 800px) {
+	div.block-feature li.post-child, div.block-feature li.post-feature {
+		max-width: none; width: 100%;
+		min-height: none;
+		float: none;
+	}
+}
