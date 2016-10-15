@@ -103,7 +103,7 @@ div.block-feature li.post-feature div.post-image {
     list-style-type: none;
 }
 
-.widget_recent_entries ul li {
+#footer-widgets .widget_recent_entries ul li, .inside-right-sidebar .widget_recent_entries ul li {
     font-size: 0.8em;
     background: #f7f7f7;
     padding: 9px;
