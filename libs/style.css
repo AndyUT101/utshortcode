@@ -105,6 +105,10 @@ div.block-feature li.post-feature div.post-image {
 
 #footer-widgets .widget_recent_entries ul li {
     font-size: 0.8em;
+    background: #f7f7f7;
+    padding: 9px;
+    margin-bottom: 4px;
+    border-radius: 4px;
 }
 
 @media (max-width: 800px) {
